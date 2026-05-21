@@ -7,8 +7,11 @@ Requires pydub, install via: pip install pydub.
 If you want to keep your system python unmodified, create venv before using pip and activate. The following commands do this:
 
 python -m venv venv
-source venv/Scripts/activate (if Windows) source venv/bin/activate (unix OS)
+
+source venv/Scripts/activate (if Windows) source venv/bin/activate (unix based OS)
+
 which pip (To ensure we use venv pip)
+
 pip install pydub
 
-Other script takes in audio file 
+Other script can be used to rename files based on detected words used in audio. Will only use a couple by default, helps with organizing.
